@@ -7,4 +7,5 @@ const Landing: React.FC =  () => {
     </div>
   )
 }
+  
 export default Landing
