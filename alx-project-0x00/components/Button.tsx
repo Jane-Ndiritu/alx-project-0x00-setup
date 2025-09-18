@@ -1,4 +1,4 @@
-import { PillProps } from '../interfaces';
+import {ButtonProps } from '../interfaces';
 
 const Button = ({ 
   title, 
@@ -9,7 +9,7 @@ const Button = ({
   onClick = () => {},
   disabled = false,
   type = 'button'
-}: PillProps) => {
+}: ButtonProps) => {
   // Base button classes
   const baseClasses = 'font-semibold transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2'
   
