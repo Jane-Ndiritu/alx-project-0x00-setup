@@ -1,13 +1,15 @@
+import { PillProps } from '../interfaces';
+
 const Button = ({ 
   title, 
+  styles = '', 
   size = 'medium', 
   shape = 'rounded-md', 
-  className = '', 
+  variant = 'primary',
   onClick = () => {},
   disabled = false,
-  type = 'button',
-  variant = 'primary'
-}) => {
+  type = 'button'
+}: PillProps) => {
   // Base button classes
   const baseClasses = 'font-semibold transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2'
   
